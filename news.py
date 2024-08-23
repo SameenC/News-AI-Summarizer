@@ -62,7 +62,7 @@ def main():
         keywords = [keyword.strip() for keyword in keywords]  # Clean up whitespace
         num_articles = int(input("How many articles would you like to retrieve? "))
 
-        api_key = '73c548975c2342f9b69c8c533b73b6dc'  # Replace with your actual NewsAPI key
+        api_key = 'replace_with_your_key'  # Replace with your actual NewsAPI key
         articles = fetch_newsapi_articles(api_key, keywords, num_articles)
 
         for article in articles:
